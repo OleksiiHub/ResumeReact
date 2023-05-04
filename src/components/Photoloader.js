@@ -8,7 +8,10 @@ export function PhotoLoader() {
             alt="logo"
             className = "photo"
         />
-
     );
 }
+
+
+
+
 
