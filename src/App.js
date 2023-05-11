@@ -11,7 +11,7 @@ function App() {
         <div className="contacts-container theme_standart_color">
             <Counter/>
           <div className="img_adaptive">
-            <PhotoLoader />
+            <PhotoLoader photo = "../public/images/photo.jpeg" />
           </div>
           <Contactinfo />
         </div>

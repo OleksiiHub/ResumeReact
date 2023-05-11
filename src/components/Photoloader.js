@@ -1,10 +1,9 @@
-import photo from '../images/photo.jpeg';
 
-export function PhotoLoader() {
+export function PhotoLoader(props) {
     return (
         
         <img
-            src={photo}
+            src={props.photo}
             alt="logo"
             className = "photo"
         />
